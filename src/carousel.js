@@ -1,3 +1,5 @@
+import './style.css';
+
 export default function createCarousel(carouselSelector) {
     const carousel = document.querySelector(carouselSelector);
     const slides = carousel.querySelector('.slides');
