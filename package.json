@@ -1,15 +1,16 @@
 {
   "name": "@shazomiii/image-carousel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple image carousel.",
   "main": "dist/main.js",
   "files": [
-    "dist"
+    "dist",
+    "src/carousel.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack serve --open",
+    "start": "webpack serve --open --env development",
     "prepare": "npm run build"
   },
   "repository": {
